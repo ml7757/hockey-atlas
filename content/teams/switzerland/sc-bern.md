@@ -2,7 +2,7 @@
 name = "SC Bern"
 status = "Active"
 founded = "1931"
-logo = ""
+logo = "https://res.cloudinary.com/ml7757/image/upload/v1725216852/hockey/SC_Bern_gbsn4a.png"
 colours = ["Black", "Red", "Yellow"]
 arena = "Post Finance Arena"
 country = "Switzerland"
