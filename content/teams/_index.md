@@ -4,5 +4,4 @@ cascade:
 title: All teams
 ---
 
-
-Hello from teams index!
+I am on the teams index page.
