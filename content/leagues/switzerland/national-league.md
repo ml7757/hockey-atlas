@@ -6,7 +6,7 @@ status: Active
 tier: 1
 founded: 1938
 ceased:
-logo:
+logo: https://res.cloudinary.com/ml7757/image/upload/v1725392773/hockey/leagues/national-league-logo_htzvr8.png
 countries:
 - Switzerland
 clubs:
