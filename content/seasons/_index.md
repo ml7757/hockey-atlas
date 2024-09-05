@@ -1,6 +1,6 @@
 ---
-cascade:
-  type: seasons
+layout: seasons
+type: seasons
 title: All seasons
 ---
 

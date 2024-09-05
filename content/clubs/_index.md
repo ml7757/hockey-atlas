@@ -1,6 +1,6 @@
 ---
-cascade:
-  type: clubs
+layout: clubs
+type: section
 title: All clubs
 ---
 

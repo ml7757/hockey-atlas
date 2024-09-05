@@ -1,6 +1,6 @@
 ---
-cascade:
-  type: leagues
+layout: leagues
+type: leagues
 title: All leagues
 ---
 
