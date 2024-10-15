@@ -1,5 +1,27 @@
 {{ define "main" }}
-	<h1>Here I am on the league single template</h1>
-
 	<h3>{{ .Params.name }}</h3>
+	<img src="{{ .Params.logo }}" alt="National League official logo">
+	<div>{{ .Params.status }}</div>
+	<div>{{ .Params.competition_type }}</div>
+	<div>{{ .Params.competition_scope }}</div>
+	<div>{{ .Params.age }}</div>
+	<div>{{ .Params.founded }}</div>
+	<div>{{ .Params.ceased }}</div>
+	{{ range $country := .Params.countries }}
+		<div>{{ $country }}</div>
+	{{ end }}
+	<ul>
+		{{ range $club := .Params.clubs }}
+			<li>{{ $club }}</li>
+		{{ end }}
+	</ul>
+	<ul>
+		{{ range $fclub := .Params.former_clubs }}
+			<li>{{ $fclub }}</li>
+		{{ end }}
+	</ul>
+	<div>{{ .Params.promotion_to }}</div>
+	<div>{{ .Params.relegation_to }}</div>
+	<div>{{ .Params.predecessors }}</div>
+	<div>{{ .Params.successors }}</div>
 {{ end }}

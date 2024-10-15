@@ -5,8 +5,8 @@ short_name:
 status: Active
 tier: 1
 competition_type: League
-competiton_scope: Domestic
-Age: Adult
+competition_scope: Domestic
+age: Adult
 founded: 1938
 ceased:
 logo: https://res.cloudinary.com/ml7757/image/upload/v1725392773/hockey/leagues/national-league-logo_htzvr8.png
@@ -39,5 +39,3 @@ relegation_to: Swiss League
 predecessors:
 successors:
 ---
-
-This is a league page
