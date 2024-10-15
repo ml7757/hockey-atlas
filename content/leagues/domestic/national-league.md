@@ -4,6 +4,9 @@ ep_name: NL
 short_name:
 status: Active
 tier: 1
+competition_type: League
+competiton_scope: Domestic
+Age: Adult
 founded: 1938
 ceased:
 logo: https://res.cloudinary.com/ml7757/image/upload/v1725392773/hockey/leagues/national-league-logo_htzvr8.png
