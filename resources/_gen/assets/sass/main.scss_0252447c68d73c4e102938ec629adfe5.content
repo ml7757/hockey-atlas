@@ -1,1 +1,1 @@
-*,*::after,*::before{margin:0;paddin:0;box-sizing:border-box}main{max-width:1300px;margin:0 auto}
+*,*::after,*::before{margin:0;paddin:0;box-sizing:border-box}main{max-width:1300px;margin:0 auto}.nav__wrapper{background-color:#9E2B25;height:5rem;margin:3rem 0}.nav__content{max-width:1300px;margin:0 auto}.nav__logo{margin-top:-1.7rem}
