@@ -1,5 +1,12 @@
 <nav class="nav__wrapper">
 	<div class="nav__content">
-		<img src="https://res.cloudinary.com/ml7757/image/upload/c_scale,w_100/v1729451600/hockey/misc/LLL_red_outline_ro7req.png" alt="Lip Lettuce logo" class="nav__logo">
+		<a href="/">
+			<img src="https://res.cloudinary.com/ml7757/image/upload/c_scale,w_100/v1729451600/hockey/misc/LLL_red_outline_ro7req.png" alt="Lip Lettuce logo" class="nav__logo">
+		</a>
+		<ul class="nav__list">
+			<li class="nav__item"><a href="{{ $.Site.BaseURL }}/countries" class="nav__link">Countries</a></li>
+			<li class="nav__item"><a href="{{ $.Site.BaseURL }}/leagues" class="nav__link">Leagues</a></li>
+			<li class="nav__item"><a href="{{ $.Site.BaseURL }}/clubs" class="nav__link">Clubs</a></li>
+		</ul>
 	</div>
 </nav>

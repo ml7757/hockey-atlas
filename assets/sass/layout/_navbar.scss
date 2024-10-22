@@ -2,16 +2,36 @@
 
 	&__wrapper {
 		background-color: #9E2B25;
-		height: 7rem;
+		border-bottom: 1rem solid #F2C57C;
 		margin: 5rem 0;
 	}
 
 	&__content {
+		height: 7rem;
 		max-width: 1300px;
 		margin: 0 auto;
+		display: flex;
 	}
 
-	&__logo {
-		margin-top: -3rem;
+	&__logo { margin-top: -2.7rem; }
+
+	&__list {
+		list-style: none;
+		width: 25%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__link {
+		&:link,
+		&:visited {
+			text-decoration: none;
+			color: #fff;
+			font-weight: 900;
+		}
+
+		&:hover,
+		&:active { border-bottom: .2rem solid #fff; }
 	}
 }
