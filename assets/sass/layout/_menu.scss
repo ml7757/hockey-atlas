@@ -1,0 +1,42 @@
+.menu {
+	background: rgba(#9E2B25, .9);
+	height: 100%;
+	width: 100%;
+	margin-top: -5rem;
+	left: 0;
+	position: fixed;
+	overflow-y: scroll;
+	transform: translateX(-100%);
+	transition: transform 250ms ease-in-out;
+	z-index: 10;
+
+	&__wrapper { margin: 5rem 0; }
+
+	&__content { @extend .nav__content; }
+
+	&__list {
+		max-width: 1300px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	&__links {
+		margin-top: 10rem;
+		list-style: none;
+	}
+
+	&__item {
+
+		&:not(:last-child) { margin-bottom: 3rem; }
+	}
+
+	&__link {
+		@extend .nav__link;
+		font-size: 3rem;
+		text-transform: uppercase;
+
+		&:hover,
+		&:active { border-bottom: .5rem solid #fff; }
+	}
+}

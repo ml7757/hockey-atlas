@@ -1,4 +1,4 @@
-.menu-icon {
+.hamburger {
 	transition: all 0.3s;
 	display: none;
 
@@ -39,20 +39,23 @@
 		}
 	}
 
-	&:checked ~ .sidebar { transform: translateX(0); }
+	&:checked ~ .menu { transform: translateX(0); }
 
 	&:checked ~ &__toggle > &__horizontal {
+		box-sizing: border-box;
 		transition: all 0.3s;
 		opacity: 0;
 	}
 
 	&:checked ~ &__toggle > &__diagonal--1 {
+		box-sizing: border-box;
 		transition: all 0.3s;
     transform: rotate(135deg);
 		margin-top: .8rem;
 	}
 
 	&:checked ~ &__toggle > &__diagonal--2 {
+		box-sizing: border-box;
 		transition: all 0.3s;
 		transform: rotate(-135deg);
 		margin-top: -1rem;

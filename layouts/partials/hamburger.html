@@ -1,6 +1,10 @@
-<input type="checkbox" class="menu-icon" id="openSidebarMenu">
-<label for="openSidebarMenu" class="menu-icon__toggle no-print">
-  <div class="menu-icon__spinner menu-icon__diagonal--1"></div>
-  <div class="menu-icon__spinner menu-icon__horizontal"></div>
-  <div class="menu-icon__spinner menu-icon__diagonal--2"></div>
+{{ if eq .checked "true" }}
+	<input type="checkbox" class="hamburger" id="openMenu" checked>
+{{ else }}
+	<input type="checkbox" class="hamburger" id="openMenu">
+{{ end }}
+<label for="openMenu" class="hamburger__toggle">
+  <div class="hamburger__spinner hamburger__diagonal--1"></div>
+  <div class="hamburger__spinner hamburger__horizontal"></div>
+  <div class="hamburger__spinner hamburger__diagonal--2"></div>
 </label>

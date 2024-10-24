@@ -8,6 +8,8 @@
 			<li class="nav__item"><a href="{{ $.Site.BaseURL }}/leagues" class="nav__link">Leagues</a></li>
 			<li class="nav__item"><a href="{{ $.Site.BaseURL }}/clubs" class="nav__link">Clubs</a></li>
 		</ul>
-		{{ partial "hamburger.html" . }}
+		{{ partial "hamburger.html" (dict "attr" . "checked" "false") }}
+
+		{{ partial "menu" . }}
 	</div>
 </nav>
