@@ -28,10 +28,7 @@
 
 	&__diagonal {
 
-		&--1 {
-			position: relative;
-	    transition: all 0.3s;
-		}
+		&--1 {transition: all 0.3s; }
 
 		&--2 {
 			transition: all 0.3s;
@@ -42,20 +39,17 @@
 	&:checked ~ .menu { transform: translateX(0); }
 
 	&:checked ~ &__toggle > &__horizontal {
-		box-sizing: border-box;
 		transition: all 0.3s;
 		opacity: 0;
 	}
 
 	&:checked ~ &__toggle > &__diagonal--1 {
-		box-sizing: border-box;
 		transition: all 0.3s;
     transform: rotate(135deg);
 		margin-top: .8rem;
 	}
 
 	&:checked ~ &__toggle > &__diagonal--2 {
-		box-sizing: border-box;
 		transition: all 0.3s;
 		transform: rotate(-135deg);
 		margin-top: -1rem;
