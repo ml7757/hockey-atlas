@@ -1,0 +1,16 @@
+.btn {
+	font-weight: 600;
+	background-color: #F4F4F4;
+	border-radius: 1rem;
+	padding: 1rem;
+	width: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	&:link,
+	&:visited {
+		text-decoration: none;
+		color: #000;
+	}
+}

@@ -2,4 +2,10 @@
 	<h1>{{ .Params.title }}</h1>
 
 	<p>{{ .Content }}</p>
+
+	<a href="#" class="btn">
+		<img src="https://res.cloudinary.com/ml7757/image/upload/c_scale,h_40/v1725392773/hockey/leagues/national-league-logo_htzvr8.png" alt="National league logo" class="btn__logo">
+		<div class="btn__name">National League</div>
+		{{ partial "flags/switzerland.html" }}
+	</a>
 {{ end }}
